@@ -17,4 +17,4 @@ To run this project locally, simply follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/USERNAME/color-picker-app.git](https://github.com/USERNAME/color-picker-app.git)
+   git clone [https://github.com/AzrielNaufal-Dev/color-picker-app.git](https://github.com/AzrielNaufal-Dev/color-picker-app.git)
