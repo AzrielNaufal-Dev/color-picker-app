@@ -17,6 +17,10 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -46,5 +50,19 @@ p {
   height: 150px;
   border-radius: 12px;
   margin-top: 20px;
+  margin-bottom: 20px;
   transition: background-color 0.3s ease;
+}
+
+#copyBtn {
+  border-style: solid;
+  padding: 12px;
+  border-radius: 30px;
+
+  align-self: flex-end;
+  background-color: #dcdada;
+}
+
+#copyBtn:active {
+  background-color:#f0f0f0;
 }

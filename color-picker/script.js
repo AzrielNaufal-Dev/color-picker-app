@@ -8,3 +8,9 @@ document.getElementById("colorInput").addEventListener("input", (event) => {
   // Update the background color of the display box
   document.getElementById("colorDisplay").style.backgroundColor = selectedColor
 })
+
+document.getElementById("copyBtn").addEventListener("click", () => {
+  let hexCode = document.getElementById("colorCode").textContent
+
+  navigator.clipboard.writeText(hexCode)
+})
